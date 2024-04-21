@@ -28,4 +28,9 @@ public class Person {
     public boolean isAdult() {
         return this.getAge() >= 18;
     }
+
+    @Override
+    public String toString() {
+        return this.name;
+    }
 }
